@@ -39,7 +39,7 @@ jobs:
     - name: Set Golang
       run: |
         cd /opt/hostedtoolcache/go
-        rm -rf /opt/hostedtoolcache/go/1.14.12
+        rm -rf /opt/hostedtoolcache/go/1.14.13
         mv 1.15.6 1.14.13
     - name: Build Firmware
       env:
